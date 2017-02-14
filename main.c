@@ -6,7 +6,7 @@ void dispTop(void);
 void dispMin(void);
 void dispHousehold(void);
 void dispDiff(void);
-
+void dispLow(void);
 void main(void)
 {
 	char userinput;
@@ -33,6 +33,9 @@ void main(void)
 			break;
 		case 'F': case'f':
 			dispDiff();
+			break;
+		case 'G' : case'g':
+			dispLow();
 			break;
 		case 'Q': case 'q':
 			userinput = 'Q';
